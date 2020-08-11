@@ -1,0 +1,29 @@
+/* MAIN */
+.section--main .inner {
+    max-width : 576px;
+    display : block;
+}
+
+/* MAIN - SUMMARY */
+.section--main .summary {
+    text-align: center;
+}
+
+.section--main .summary .summary__title {
+    margin-bottom : 32px;
+}
+
+.section--main .summary .summary__description {
+    padding : 0 15px;
+    box-sizing: border-box;
+    margin-bottom : 56px;
+}
+
+/* MAIN - REGISTER */
+.section--main .register {
+    width : auto;
+    margin-left : 0;
+}
+
+
+

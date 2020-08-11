@@ -1,0 +1,55 @@
+/* COMMON */
+body {
+    font-size : 14px;
+    background : url('../images/bg-intro-mobile.png') hsl(0, 100%, 74%);
+    background-size: cover; 
+}
+
+/* MAIN */
+.section--main .inner {
+    max-width : 320px;
+}
+
+/* MAIN - SUMMARY */
+.section--main .summary .summary__title {
+    font-size : 26px;
+    margin-bottom : 24px;
+}
+
+.section--main .summary .summary__description {
+    margin-bottom : 38px;
+}
+
+/* MAIN - REGISTER */
+.section--main .register__title {
+    display : block;
+    height : auto;
+    font-size : 14px;
+    padding : 10px 30px;
+}
+
+#register-form {
+    padding : 20px 25px;
+}
+
+#register-form li [type="submit"] {
+    font-size : 14px;
+}
+
+#register-form li .caption {
+    display : block;
+    font-size : 2px;
+    padding : 0 20px;
+    text-align : center;
+}
+
+#register-form li .caption a {
+    font-size : 4px;
+    padding : 3px;
+    padding-left : 0;
+}
+
+#register-form li .caption a:hover {
+    font-size : 8px;
+    font-weight : 600;
+}
